@@ -1,0 +1,13 @@
+1.- Abre el archivo index2.html, aqui los estilos se localizan en un archivo a parte llamado 
+hojas_estilos.css.
+
+2.-Observa los cambios y adecuaciones que brindan los parametros class (titulo, textonormal,
+tr1, tr2 y botones)
+
+3.- Responde la siguiente pregunta, porque los estilos deben estar a parte 
+de la estrucutura y contenido
+
+("Los estilos debe de estar en un lugar reservado para que puedan ser llamdos sin necesidad 
+de crearlos uno por uno cuando se requiera en el texto y ahorra trabajo)
+
+by: MTI. Daniel Tellez

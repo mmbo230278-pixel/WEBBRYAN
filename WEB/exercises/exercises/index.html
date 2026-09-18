@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Exercises</title>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #0d0d0d;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: clamp(2.5rem, 8vw, 4.5rem);
+    color: #d4af37;
+    text-shadow: 0 0 8px rgba(212, 175, 55, 0.4);
+    margin-bottom: 40px;
+  }
+  nav {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 18px;
+    max-width: 700px;
+    width: 100%;
+  }
+  nav a {
+    text-decoration: none;
+    color: #d4af37;
+    border: 2px solid #d4af37;
+    padding: 14px 10px;
+    border-radius: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 600;
+    font-size: 1.3rem;
+    transition: all 0.3s ease;
+  }
+  nav a:hover {
+    background: #d4af37;
+    color: #0d0d0d;
+    transform: translateY(-3px);
+  }
+  .volver {
+    margin-top: 40px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.2rem;
+    border-bottom: 1px solid #fff;
+  }
+</style>
+</head>
+<body>
+
+  <h1>Exercises</h1>
+
+  <nav>
+    <a href="Ejercicio_1/unocss.html">Ejercicio 1</a>
+    <a href="Ejercicio_2/colores.html">Ejercicio 2</a>
+    <a href="Ejercicio_3/doscss.html">Ejercicio 3</a>
+    <a href="Ejercicio_4/ActividadDGT.html">Ejercicio 4</a>
+    <a href="Ejercicio_5/index2.html">Ejercicio 5</a>
+    <a href="Ejercicio_6/index.html">Ejercicio 6</a>
+    <a href="Ejercicio_7/index.html">Ejercicio 7</a>
+  </nav>
+
+  <a class="volver" href="../../index.html">&larr; Volver al Menú Principal</a>
+
+</body>
+</html>

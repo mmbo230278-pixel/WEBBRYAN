@@ -1,0 +1,51 @@
+body {
+	margin: 0;
+	font-family: "Verdana", Arial, Tahoma;
+	font-size: 12px;
+	color: #FFFFFF;
+	background-color: #00FFFF;
+}
+
+.Layer1 {
+	position: absolute;
+	right: 40px;
+	top: 5px;
+	width: 954px;
+	height: 80px;
+	z-index: 1;
+	background-color: #006699;
+	color: #FFFFFF;
+}
+
+.Layer2 {
+	position: absolute;
+	left: 20px;
+	top: 100px;
+	width: 113px;
+	height: 381px;
+	z-index: 1;
+	background-color: #0000FF;
+	color: #FFFFFF;
+}
+
+/* CUADROS DE LA ACTIVIDAD */
+.contenedor {
+	position: absolute;
+	left: 160px;
+	top: 100px;
+	width: 420px;
+}
+
+.caja {
+	float: left;
+	width: 180px;
+	height: 120px;
+	margin: 10px;
+	text-align: center;
+	line-height: 120px;
+}
+
+.caja-a { background-color: #FF0000; }
+.caja-b { background-color: #0000FF; }
+.caja-c { background-color: #FFFF00; color: #000000; }
+.caja-d { background-color: #008000; }
